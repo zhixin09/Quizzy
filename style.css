@@ -356,14 +356,6 @@ footer {
 
 /* QUIZ */
 
-/* #quiz {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 100%;
-} */
-
 #quiz-start-btn {
   padding: 9px 25px;
   border-radius: 10px;
@@ -563,7 +555,7 @@ footer {
     padding-bottom: 2.5rem;
   }
   .question-img {
-    margin-top: 0px;
+    margin: 20px;
     height: auto;
     width: 30%;
   }
@@ -593,5 +585,13 @@ footer {
     grid-auto-flow: column;
     grid-template-rows: 50px 50px;
     padding: 0px 20px;
+  }
+
+  #quiz-gameover-response {
+    font-size: 25px;
+  }
+  
+  #quiz-correct-response {
+    font-size: 25px;
   }
 }
