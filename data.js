@@ -54,4 +54,32 @@ var level2 = [
   },
 ];
 
-export { level1, level2 };
+var level3= [
+  {
+    q: 'What is this plane part?<p/><img class="question-img" src="images/plane parts/cabin.png">',
+    options: ['Flaps', 'Wings', 'Cabin', 'Engine'],
+    correctIndex: 2,
+  },
+  {
+    q: 'What is this plane part?<p><img class="question-img" src="images/plane parts/cockpit.png"></p>',
+    options: ['Cockpit', 'Propeller', 'Landing Gear', 'Rudder'],
+    correctIndex: 0,
+  },
+  {
+    q: 'What is this plane part?<p><img class="question-img" src="images/plane parts/engine.png"></p>',
+    options: ['Tail', 'engine', 'Slats', 'Wings'],
+    correctIndex: 1,
+  },
+  {
+    q: 'What is this plane part?<p><img class="question-img" src="images/plane parts/tail.png"></p>',
+    options: ['Cockpit', 'Cabin', 'Tail', 'Fuselage'],
+    correctIndex: 2,
+  },
+  {
+    q: 'What is this plane part?<p><img class="question-img" src="images/plane parts/wing.png"></p>',
+    options: ['Landing Gear', 'engine', 'Tail', 'Wings'],
+    correctIndex: 3,
+  },
+];
+
+export { level1, level2, level3 };

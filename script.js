@@ -1,4 +1,4 @@
-import { level1, level2 } from './data.js';
+import { level1, level2, level3 } from './data.js';
 
 var currentQuiz = [];
 
@@ -59,14 +59,22 @@ $(document).ready(function () {
     $('#banner-title').text('Bicycle');
     $('#banner-text').text('Level 1');
     //Update the image of the quiz
-    $('.quiz-img').attr('src', 'images/bicycle.svg');
+    $('.quiz-img').attr('src', 'images/moving_bicycle.svg');
   });
   // SELECT LEVEL 2
   $('#quiz-2').click(function () {
     currentQuiz = level2;
     $('#banner-title').text('Car');
     $('#banner-text').text('Level 2');
-    $('.quiz-img').attr('src', 'images/car.svg');
+    $('.quiz-img').attr('src', 'images/moving_car.svg');
+  });
+
+  // SELECT LEVEL 3
+  $('#quiz-3').click(function () {
+    currentQuiz = level3;
+    $('#banner-title').text('Plane');
+    $('#banner-text').text('Level 3');
+    $('.quiz-img').attr('src', 'images/plane.svg');
   });
 
   //DEFAULT STATE OF THE QUIZ
@@ -230,21 +238,6 @@ $(document).ready(function () {
     duration: 1000,
     opacity: [0, 1],
     rotateX: '10',
-  });
-
-  anime({
-    targets: '#wheels',
-    rotate: '-360',
-    easing: 'linear',
-    loop: true,
-  });
-
-  anime({
-    targets: '#bicycle-body',
-    translateY: 5,
-    direction: 'alternate',
-    loop: true,
-    easing: 'easeInOutSine',
   });
 
   anime({
