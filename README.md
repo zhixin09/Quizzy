@@ -5,7 +5,7 @@ the intended audience are for preschool and lower-primary students (children age
 Made by [Zhixin](https://github.com/zhixin09)
 
 ## Live Demo
-https://zhixinrp.github.io/Quizzy/
+https://zhixin09.github.io/Quizzy/
 
 ## Web Technologies
 - HTML
