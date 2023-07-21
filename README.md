@@ -10,4 +10,4 @@ https://zhixinrp.github.io/Quizzy/
 ## Web Technologies
 - HTML
 - CSS
-- JS
+- JavaScript (Jquery)
