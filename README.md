@@ -3,7 +3,7 @@ Quizzy is a single-page web application that allows users to test their knowledg
 the intended audience are for preschool and lower-primary students (children ages 1 to 9). 
 
 ## Live Demo
-https://lifehacker.netlify.app/
+https://zhixinrp.github.io/Quizzy/
 
 ## Web Technologies
 - HTML
